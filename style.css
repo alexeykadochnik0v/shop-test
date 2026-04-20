@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: purple;
+}
+
+img {
+    max-width: 100%;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    gap: 16px;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 220px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
